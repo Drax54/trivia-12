@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "id": "entertainment",
+      "name": "Entertainment Trivia",
+      "description": "Test your knowledge of movies, TV shows, and pop culture",
+      "metaDescription": "Explore fun quizzes on movies, TV shows, and pop culture. Test your entertainment knowledge now!",
+      "icon": "Film",
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2070&auto=format&fit=crop",
+      "totalQuizzes": 210,
+      "totalAttempts": 189000,
+      "averageAccuracy": 62,
+      "difficulty": "Easy",
+      "ageGroup": "10+",
+      "popularTags": ["Movies", "TV Shows", "Music", "Celebrities"],
+      "featured": true
+    },
+    {
+      "id": "history",
+      "name": "History Trivia",
+      "description": "Challenge yourself with quizzes on world history, civilizations, and events",
+      "metaDescription": "Test your history knowledge with quizzes on civilizations, major events, and historical figures.",
+      "icon": "BookText",
+      "image": "https://images.unsplash.com/photo-1523742812842-2afe6c36e80f?q=80&w=2070&auto=format&fit=crop",
+      "totalQuizzes": 180,
+      "totalAttempts": 165000,
+      "averageAccuracy": 58,
+      "difficulty": "Medium",
+      "ageGroup": "12+",
+      "popularTags": ["World History", "Ancient Civilizations", "Wars", "Leaders"],
+      "featured": true
+    }
+  ]
+  
+}

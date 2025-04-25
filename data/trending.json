@@ -1,0 +1,40 @@
+{
+  "trending": [
+    {
+      "id": "marvel-cinematic-universe",
+      "title": "Marvel Cinematic Universe",
+      "category": "Entertainment",
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=2074&auto=format&fit=crop",
+      "participants": 12500,
+      "duration": 15,
+      "difficulty": "Medium"
+    },
+    {
+      "id": "world-geography-masters",
+      "title": "World Geography Masters",
+      "category": "Geography",
+      "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce?q=80&w=2033&auto=format&fit=crop",
+      "participants": 8200,
+      "duration": 20,
+      "difficulty": "Hard"
+    },
+    {
+      "id": "science-quiz-2024",
+      "title": "Science Quiz 2024",
+      "category": "Science",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2070&auto=format&fit=crop",
+      "participants": 10100,
+      "duration": 25,
+      "difficulty": "Medium"
+    },
+    {
+      "id": "history-mysteries",
+      "title": "History Mysteries",
+      "category": "History",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=2074&auto=format&fit=crop",
+      "participants": 7800,
+      "duration": 30,
+      "difficulty": "Expert"
+    }
+  ]
+}

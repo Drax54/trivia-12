@@ -1,0 +1,1743 @@
+{
+  "quizzes": [
+    {
+      "id": "oscar-winners-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Oscar-Winning Films Trivia Quiz",
+      "description": "Test your knowledge about Academy Award-winning movies throughout history.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 24500,
+      "studyTopicId": "oscar-awards",
+      "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?q=80&w=2574&auto=format&fit=crop",
+      "tags": [
+        "Oscars",
+        "Best Picture",
+        "Award Winners"
+      ]
+    },
+    {
+      "id": "cinema-101-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Cinema 101: The Basics Trivia Quiz",
+      "description": "Dive into the world of movies with this introductory quiz designed for cinephiles and newbies alike. Explore a range of genres and famous films.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.7,
+      "attempts": 32000,
+      "studyTopicId": "cinema-basics",
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2069&auto=format&fit=crop",
+      "tags": [
+        "Film Genres",
+        "Famous Movies",
+        "Cinema"
+      ]
+    },
+    {
+      "id": "sci-fi-movies-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "A Sci-Fi Journey Trivia Quiz",
+      "description": "Test your knowledge of science fiction cinema from the classics to the latest blockbusters. Perfect for fans of futuristic and fantastical worlds.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 27500,
+      "studyTopicId": "sci-fi-genre",
+      "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2525&auto=format&fit=crop",
+      "tags": [
+        "Sci-Fi",
+        "Space",
+        "Futuristic"
+      ]
+    },
+    {
+      "id": "kids-movies-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Magical Kid's Movie Trivia Quiz",
+      "description": "From animated classics to modern favorites, this quiz covers the magical and adventurous world of children's movies.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 22000,
+      "studyTopicId": "childrens-films",
+      "image": "https://images.unsplash.com/photo-1535572290543-960a8046f5af?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Children's Movies",
+        "Animation",
+        "Family Friendly"
+      ]
+    },
+    {
+      "id": "adult-movies-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "18+ Adult Movies Trivia Quiz",
+      "description": "Explore the daring and provocative world of adult cinema through this engaging quiz, focusing on critically acclaimed mature films.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.3,
+      "attempts": 15000,
+      "studyTopicId": "adult-cinema",
+      "image": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=2574&auto=format&fit=crop",
+      "tags": [
+        "Adult Cinema",
+        "Mature Content",
+        "Critically Acclaimed"
+      ]
+    },
+    {
+      "id": "classic-cinema-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Classic Cinema Trivia Quiz",
+      "description": "Step back in time and test your knowledge on the timeless classics of the silver screen.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 22000,
+      "studyTopicId": "classic-cinema",
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Classic Films",
+        "Old Hollywood",
+        "Movie Stars"
+      ]
+    },
+    {
+      "id": "famous-directors-and-filmmakers-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Famous-Directors and Filmmakers Trivia Quiz",
+      "description": "Explore the minds behind the cameras. How well do you know the directors and their distinctive styles?",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 18000,
+      "studyTopicId": "film-directors",
+      "image": "https://images.unsplash.com/photo-1603123853880-a92a0fc6e04f?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Directors",
+        "Filmmaking",
+        "Cinematic Styles"
+      ]
+    },
+    {
+      "id": "box-office-blockbusters-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Box Office Blockbusters Trivia Quiz",
+      "description": "Challenge your knowledge on the highest-grossing films of all time. Are you ready for blockbuster trivia?",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 30000,
+      "studyTopicId": "box-office-records",
+      "image": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Blockbusters",
+        "High Grossing",
+        "Box Office"
+      ]
+    },
+    {
+      "id": "film-industry-around-the-world-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Film-Industry Around The World Trivia Quiz",
+      "description": "Take a cinematic journey across the globe and discover the diverse film cultures from various countries.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 16500,
+      "studyTopicId": "international-cinema",
+      "image": "https://images.unsplash.com/photo-1460881680858-30d872d5b530?q=80&w=2071&auto=format&fit=crop",
+      "tags": [
+        "Global Cinema",
+        "Film Cultures",
+        "International Films"
+      ]
+    },
+    {
+      "id": "golden-globe-winners-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Golden Globe Winners Trivia Quiz",
+      "description": "Dive into the glitzy world of the Golden Globe Awards and test your knowledge on films that have triumphed over the years.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 15000,
+      "studyTopicId": "golden-globe-awards",
+      "image": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Golden Globes",
+        "Award Winning",
+        "Celebrity"
+      ]
+    },
+    {
+      "id": "bafta-award-winning-movies-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "BAFTA Award-Winning Movies Trivia Quiz",
+      "description": "Explore the prestigious world of BAFTA and challenge yourself with questions about movies that have won this coveted award.",
+      "questionCount": 30,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 12300,
+      "studyTopicId": "bafta-awards",
+      "image": "https://images.unsplash.com/photo-1597002973885-8c90683fa6e0?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "BAFTA",
+        "UK Cinema",
+        "Film Awards"
+      ]
+    },
+    {
+      "id": "cannes-film-festival-classics-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Cannes Film Festival Classics Trivia Quiz",
+      "description": "Celebrate the cinematic excellence of the Cannes Film Festival with this quiz featuring classics and contemporary masterpieces.",
+      "questionCount": 20,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 17200,
+      "studyTopicId": "cannes-film-festival",
+      "image": "https://images.unsplash.com/photo-1604866830893-c13d512072ac?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Cannes",
+        "Film Festival",
+        "Classic Films"
+      ]
+    },
+    {
+      "id": "golden-age-of-hollywood-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Golden Age of Hollywood (1930s–1950s)",
+      "description": "Dive into the glitz and glamour of the Golden Age of Hollywood and test your knowledge of the iconic films and stars from the 1930s to the 1950s.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 17200,
+      "studyTopicId": "hollywood-golden-age",
+      "tags": [
+        "Hollywood",
+        "1930s-1950s",
+        "Classic Films"
+      ]
+    },
+    {
+      "id": "best-of-alfred-hitchcock-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Best of Alfred Hitchcock",
+      "description": "Explore the suspenseful world of Alfred Hitchcock with questions on his most thrilling films and cinematic techniques.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 13800,
+      "studyTopicId": "hitchcock-films",
+      "tags": [
+        "Hitchcock",
+        "Thriller",
+        "Director"
+      ]
+    },
+    {
+      "id": "audrey-hepburn-grace-kelly-classics-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Audrey Hepburn & Grace Kelly Classics",
+      "description": "Step back into classic cinema with this quiz centered on the timeless elegance and films of Audrey Hepburn and Grace Kelly.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 16500,
+      "studyTopicId": "classic-film-icons",
+      "tags": [
+        "Classic Stars",
+        "Audrey Hepburn",
+        "Grace Kelly"
+      ]
+    },
+    {
+      "id": "charlie-chaplin-silent-films-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Charlie Chaplin Silent Films",
+      "description": "Test your knowledge on the pioneering silent films of Charlie Chaplin, whose comedic genius captivated audiences worldwide.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Easy",
+      "popularity": 4.3,
+      "attempts": 10200,
+      "studyTopicId": "silent-film-era",
+      "tags": [
+        "Silent Films",
+        "Charlie Chaplin",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "casablanca-film-noir-legends-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Casablanca & Film Noir Legends",
+      "description": "Immerse yourself in the shadows and dramatic tales of film noir with a special focus on the iconic 'Casablanca'.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 14500,
+      "studyTopicId": "film-noir-classics",
+      "tags": [
+        "Casablanca",
+        "Film Noir",
+        "Classic Films"
+      ]
+    },
+    {
+      "id": "harry-potter-series-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Harry Potter Series Quiz",
+      "description": "Enter the magical world of Harry Potter and test your knowledge of spells, characters, and plot twists across all the books and movies. Are you a wizard or a muggle when it comes to Harry Potter?",
+      "questionCount": 40,
+      "timeLimit": 25,
+      "difficulty": "Medium",
+      "popularity": 5.0,
+      "attempts": 47000,
+      "studyTopicId": "harry-potter",
+      "tags": [
+        "Harry Potter",
+        "Wizarding World",
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "id": "greatest-classic-love-stories-on-screen-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Greatest Classic Love Stories on Screen",
+      "description": "Dive into the most heartwarming and iconic romantic tales ever told in cinema. From timeless classics to modern love stories, test your knowledge on the films that have captured hearts around the world.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 12000,
+      "studyTopicId": "romantic-films",
+      "tags": [
+        "Romantic Films",
+        "Classic Movies",
+        "Love Stories"
+      ]
+    },
+    {
+      "id": "marvel-cinematic-universe-mcu-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Marvel Cinematic Universe (MCU) Quiz",
+      "description": "Explore the vast Marvel Cinematic Universe and challenge your knowledge of its superheroes, villains, and epic battles. How well do you know the Avengers, Guardians of the Galaxy, and their adventures across the cosmos?",
+      "questionCount": 35,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.9,
+      "attempts": 35000,
+      "studyTopicId": "superhero-movies",
+      "tags": [
+        "MCU",
+        "Superheroes",
+        "Marvel"
+      ]
+    },
+    {
+      "id": "dc-extended-universe-dceu-trivia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "DC Extended Universe (DCEU) Trivia",
+      "description": "Test your prowess on the DC Extended Universe, featuring heroes like Batman, Superman, and Wonder Woman. How much do you know about their struggles, triumphs, and the dark tone that sets DCEU apart?",
+      "questionCount": 30,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 15000,
+      "studyTopicId": "superhero-movies",
+      "tags": [
+        "DCEU",
+        "Superheroes",
+        "DC Comics"
+      ]
+    },
+    {
+      "id": "the-lord-of-the-rings-the-hobbit-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "The Lord of the Rings / The Hobbit Challenge",
+      "description": "Embark on an epic trivia journey through Middle-earth, testing your knowledge of both The Lord of the Rings and The Hobbit film series.",
+      "questionCount": 35,
+      "timeLimit": 25,
+      "difficulty": "Hard",
+      "popularity": 4.9,
+      "attempts": 32000,
+      "studyTopicId": "middle-earth",
+      "tags": [
+        "Tolkien",
+        "Fantasy",
+        "Epic Films"
+      ]
+    },
+    {
+      "id": "star-wars-complete-saga-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Star Wars Complete Saga Trivia",
+      "description": "Master your Force by answering questions spanning the entire Star Wars saga, from the original trilogy to the latest sequels.",
+      "questionCount": 40,
+      "timeLimit": 30,
+      "difficulty": "Medium",
+      "popularity": 5.0,
+      "attempts": 45000,
+      "studyTopicId": "star-wars-universe",
+      "tags": [
+        "Star Wars",
+        "Jedi",
+        "Galactic Empire"
+      ]
+    },
+    {
+      "id": "avatar-universe-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Avatar Universe Trivia",
+      "description": "Dive deep into the lush world of Pandora and test your knowledge of James Cameron's groundbreaking film Avatar and its universe.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 19000,
+      "studyTopicId": "pandora-world",
+      "tags": [
+        "Avatar",
+        "Pandora",
+        "James Cameron"
+      ]
+    },
+    {
+      "id": "jurassic-park-jurassic-world-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Jurassic Park / Jurassic World Quiz",
+      "description": "Explore the prehistoric and thrilling world of Jurassic Park and Jurassic World with questions that challenge your dinosaur knowledge.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 25000,
+      "studyTopicId": "dinosaurs",
+      "tags": [
+        "Dinosaurs",
+        "Jurassic",
+        "Steven Spielberg"
+      ]
+    },
+    {
+      "id": "matrix-trilogy-beyond-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Matrix Trilogy & Beyond",
+      "description": "Challenge your reality with questions on the Matrix Trilogy and its expansive universe. Are you ready to choose the red pill?",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.3,
+      "attempts": 18000,
+      "studyTopicId": "virtual-reality",
+      "tags": [
+        "Matrix",
+        "Neo",
+        "Cyberpunk"
+      ]
+    },
+    {
+      "id": "fast-furious-franchise-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Fast & Furious Franchise Quiz",
+      "description": "Speed through this quiz covering all the high-octane action of the Fast & Furious movies. How well do you know Dom and his crew?",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.2,
+      "attempts": 22000,
+      "studyTopicId": "fast-furious-series",
+      "tags": [
+        "Fast & Furious",
+        "Street Racing",
+        "Vin Diesel"
+      ]
+    },
+    {
+      "id": "pirates-of-the-caribbean-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "movies",
+      "name": "Pirates of the Caribbean",
+      "description": "Set sail on a swashbuckling quiz adventure through the Pirates of the Caribbean series. Test your knowledge of Captain Jack Sparrow and his pirate tales.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 23000,
+      "studyTopicId": "pirate-adventures",
+      "tags": [
+        "Pirates",
+        "Jack Sparrow",
+        "Adventure Films"
+      ]
+    },
+    {
+      "id": "pop-music-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Pop Music Trivia Quiz",
+      "description": "Dive into the world of pop music as featured in films! From iconic soundtracks to memorable musical scenes, test your knowledge of how pop music has left its mark on the movie industry.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 15200,
+      "studyTopicId": "music-in-films",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Pop Music",
+        "Film Soundtracks",
+        "Musical Movies"
+      ]
+    },
+    {
+      "id": "rock-legends-and-classics-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Rock Legends & Classics Trivia Quiz",
+      "description": "Explore the influence of rock legends and classic tracks in cinema. This quiz covers the unforgettable moments when rock music played a pivotal role in storytelling on the silver screen.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 17600,
+      "studyTopicId": "rock-music-films",
+      "image": "https://images.unsplash.com/photo-1524230659092-07f99a75c673?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Rock Music",
+        "Classic Rock",
+        "Music Films"
+      ]
+    },
+    {
+      "id": "hip-hop-rap-history-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Hip-Hop & Rap History Trivia Quiz",
+      "description": "From groundbreaking documentaries to feature films, test your knowledge on how hip-hop and rap have been represented and shaped by the film industry.",
+      "questionCount": 30,
+      "timeLimit": 25,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 13400,
+      "studyTopicId": "hip-hop-in-cinema",
+      "image": "https://images.unsplash.com/photo-1547355253-ff0740f6e8c1?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Hip-Hop",
+        "Rap",
+        "Music Documentaries"
+      ]
+    },
+    {
+      "id": "top-billboard-hits-of-all-time-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Top Billboard Hits of All Time Trivia Quiz",
+      "description": "This quiz challenges you to identify top Billboard hits as they were featured in some of the most popular movies. Connect hit songs to their memorable movie moments!",
+      "questionCount": 25,
+      "timeLimit": 18,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 25000,
+      "studyTopicId": "billboard-hits-in-movies",
+      "image": "https://images.unsplash.com/photo-1516223725307-6f76b9ec8742?q=80&w=2074&auto=format&fit=crop",
+      "tags": [
+        "Billboard Hits",
+        "Movie Soundtracks",
+        "Top Charts"
+      ]
+    },
+    {
+      "id": "music-theory-basics-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Harmonic Foundations: Music Theory Basics",
+      "description": "Test your understanding of music theory, from scales and chords to rhythm and harmony, in this foundational quiz.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.7,
+      "attempts": 21500,
+      "studyTopicId": "music-theory",
+      "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Music Theory",
+        "Scales",
+        "Chords"
+      ]
+    },
+    {
+      "id": "exploreing-music-instruments-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Instrumental Insights: Exploring Musical Instruments",
+      "description": "From classic strings to exotic percussions, explore the rich history and unique sounds of musical instruments around the world.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 16200,
+      "studyTopicId": "musical-instruments",
+      "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Instruments",
+        "Music History",
+        "Sound Exploration"
+      ]
+    },
+    {
+      "id": "evolution-of-music-technology-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Digital Beats: The Evolution of Music Technology",
+      "description": "Trace the evolution of music technology, from analog synthesizers to digital workstations, and how they shape the music we love today.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.4,
+      "attempts": 9800,
+      "studyTopicId": "music-technology-history",
+      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Music Tech",
+        "Synthesizers",
+        "Digital Audio"
+      ]
+    },
+    {
+      "id": "best-music-producers-around-the-world-trivia-questions-and-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Behind the Hits: World's Top Music Producers",
+      "description": "Discover the masterminds behind the greatest hits of all time and learn about the innovative techniques of the world's best music producers.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 24500,
+      "studyTopicId": "music-production",
+      "image": "https://images.unsplash.com/photo-1619983081563-430f63602796?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Music Producers",
+        "Record Production",
+        "Hit Makers"
+      ]
+    },
+    {
+      "id": "rock-and-roll-classics-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Rock and Roll Classics Trivia Quiz",
+      "description": "Dive into the electrifying world of rock and roll. This quiz covers the legendary hits and icons from the 50s to the 70s that shaped this genre.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 15000,
+      "studyTopicId": "rock-and-roll-history",
+      "image": "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?q=80&w=2069&auto=format&fit=crop",
+      "tags": [
+        "Rock Music",
+        "Classic Rock",
+        "Music Legends"
+      ]
+    },
+    {
+      "id": "jazz-and-blues-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Jazz and Blues Music Trivia Quiz",
+      "description": "Explore the soulful sounds of jazz and blues. Test your knowledge on the influential musicians and classic songs that define these timeless genres.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 12000,
+      "studyTopicId": "jazz-music-history",
+      "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Jazz Music",
+        "Blues Music",
+        "Musical Genres"
+      ]
+    },
+    {
+      "id": "classical-music-masterpieces-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Classical Music Masterpieces Trivia Quiz",
+      "description": "Challenge your knowledge of classical music. From Beethoven to Mozart, explore the masterpieces that have enchanted audiences for centuries.",
+      "questionCount": 30,
+      "timeLimit": 25,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 10000,
+      "studyTopicId": "classical-music-history",
+      "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Classical Music",
+        "Composers",
+        "Symphonies"
+      ]
+    },
+    {
+      "id": "country-music-favourites-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Country Music Favourites Trivia Quiz",
+      "description": "Get ready to tap your boots with this quiz on country music favorites. Covering icons and hits from the heart of America's music scene.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.8,
+      "attempts": 13000,
+      "studyTopicId": "country-music-history",
+      "image": "https://images.unsplash.com/photo-1445985543470-41fba5c3144a?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Country Music",
+        "Music Icons",
+        "Hit Songs"
+      ]
+    },
+    {
+      "id": "taylor-swift-the-eras-tour-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Taylor Swift: The Eras Tour",
+      "description": "Dive into the spectacle of Taylor Swift's 'The Eras Tour' and test your knowledge on the setlists, guest performances, and iconic moments from this monumental tour.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 5.0,
+      "attempts": 12500,
+      "studyTopicId": "taylor-swift-music",
+      "tags": [
+        "Taylor Swift",
+        "Concert Tours",
+        "Pop Music"
+      ]
+    },
+    {
+      "id": "akons-discography-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Akon's Discography Challenge",
+      "description": "Challenge your knowledge of Akon's discography, from his debut album 'Trouble' to his latest hits. Identify tracks, collaborations, and chart-topping singles.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Hard",
+      "popularity": 4.3,
+      "attempts": 8300,
+      "studyTopicId": "akon-music",
+      "tags": [
+        "Akon",
+        "Music Albums",
+        "Hip Hop & RnB"
+      ]
+    },
+    {
+      "id": "billie-eilish-from-ocean-eyes-to-happier-than-ever-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "music",
+      "name": "Billie Eilish: From 'Ocean Eyes' to 'Happier Than Ever'",
+      "description": "Explore the musical journey of Billie Eilish from her breakout hit 'Ocean Eyes' to her critically acclaimed album 'Happier Than Ever'. Test your knowledge on her lyrics, awards, and career milestones.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 14200,
+      "studyTopicId": "billie-eilish-music",
+      "tags": [
+        "Billie Eilish",
+        "Pop Icons",
+        "Music Awards"
+      ]
+    },
+    {
+      "id": "best-kids-tv-shows-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Best Kids TV Shows",
+      "description": "Dive into the world of children's television with this quiz, featuring questions from popular and beloved kids' TV shows. Great for family quiz nights!",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 32000,
+      "studyTopicId": "childrens-television",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=2074&auto=format&fit=crop",
+      "tags": [
+        "Kids TV",
+        "Family-Friendly",
+        "Television Shows"
+      ]
+    },
+    {
+      "id": "best-sci-fi-tv-shows-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Best Sci-Fi TV Shows",
+      "description": "Explore the universe of science fiction television with this challenging quiz covering classic to current Sci-Fi TV shows.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 27500,
+      "studyTopicId": "science-fiction-tv",
+      "image": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?q=80&w=2073&auto=format&fit=crop",
+      "tags": [
+        "Sci-Fi",
+        "TV Series",
+        "Futuristic"
+      ]
+    },
+    {
+      "id": "best-animated-shows-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Best Animated Shows",
+      "description": "From timeless classics to modern hits, test your knowledge on the world's most famous animated TV shows across all ages.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 26000,
+      "studyTopicId": "animation-tv",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Animation",
+        "Cartoons",
+        "TV Shows"
+      ]
+    },
+    {
+      "id": "best-action-scene-tv-series-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Best Action Scene TV Series",
+      "description": "Get ready for adrenaline-pumping action with this quiz, which features the most thrilling action scenes from TV series. Perfect for action lovers!",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 29000,
+      "studyTopicId": "action-tv",
+      "image": "https://images.unsplash.com/photo-1586899028174-e7098604235b?q=80&w=2071&auto=format&fit=crop",
+      "tags": [
+        "Action Series",
+        "Thriller",
+        "Exciting"
+      ]
+    },
+    {
+      "id": "friends-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Friends Trivia",
+      "description": "Dive into the world of Central Perk and test your memory about one of the most beloved sitcoms ever created, Friends. How well do you know Ross, Rachel, and the rest of the gang?",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 32000,
+      "studyTopicId": "friends-series",
+      "tags": [
+        "Sitcoms",
+        "Friends",
+        "Central Perk"
+      ]
+    },
+    {
+      "id": "seinfeld-moments-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Seinfeld Moments Quiz",
+      "description": "Explore the 'show about nothing' with our Seinfeld Moments Quiz! Test your knowledge on the bizarre adventures of Jerry, Elaine, George, and Kramer in this iconic sitcom.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 25000,
+      "studyTopicId": "seinfeld-series",
+      "tags": [
+        "Seinfeld",
+        "Comedy",
+        "Sitcoms"
+      ]
+    },
+    {
+      "id": "the-office-us-trivia-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Office (US) Trivia Challenge",
+      "description": "Are you a true fan of The Office (US)? Take this challenge to prove your knowledge on Michael Scott's antics and the daily happenings at Dunder Mifflin.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 5.0,
+      "attempts": 35000,
+      "studyTopicId": "the-office-us",
+      "tags": [
+        "The Office",
+        "Dunder Mifflin",
+        "Michael Scott"
+      ]
+    },
+    {
+      "id": "how-i-met-your-mother-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "How I Met Your Mother Quiz",
+      "description": "Challenge yourself with this quiz about Ted Mosby's epic story to his children about how he met their mother. Relive the humor and the heartwarming moments of this popular series.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 28000,
+      "studyTopicId": "himym-series",
+      "tags": [
+        "HIMYM",
+        "Ted Mosby",
+        "Sitcoms"
+      ]
+    },
+    {
+      "id": "cheers-old-school-sitcom-facts-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Cheers: Old School Sitcom Facts",
+      "description": "Step back into the classic Boston bar where everybody knows your name. Test your knowledge on Cheers, one of the most famous sitcoms of the 80s.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.3,
+      "attempts": 18000,
+      "studyTopicId": "cheers-series",
+      "tags": [
+        "Cheers",
+        "Sitcoms",
+        "80s TV"
+      ]
+    },
+    {
+      "id": "frasier-knowledge-test-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Frasier Knowledge Test",
+      "description": "Do you think you’re sophisticated enough to master this quiz? Test your intellect with trivia from Frasier, the show about a snobbish psychiatrist and his Seattle life.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.4,
+      "attempts": 19000,
+      "studyTopicId": "frasier-series",
+      "tags": [
+        "Frasier",
+        "Sitcoms",
+        "Seattle"
+      ]
+    },
+    {
+      "id": "i-love-lucy-throwback-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "I Love Lucy Throwback Quiz",
+      "description": "Dive into the pioneering world of television with Lucy Ricardo in the groundbreaking sitcom, I Love Lucy. How well do you know this iconic show?",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.8,
+      "attempts": 22000,
+      "studyTopicId": "i-love-lucy-series",
+      "tags": [
+        "I Love Lucy",
+        "Lucille Ball",
+        "Classic TV"
+      ]
+    },
+    {
+      "id": "mash-military-sitcom-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "MASH Military Sitcom Quiz",
+      "description": "Explore the humorous yet poignant lives of the staff of a mobile army surgical hospital in the Korean War with our MASH Quiz.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 24000,
+      "studyTopicId": "mash-series",
+      "tags": [
+        "MASH",
+        "Military",
+        "Sitcoms"
+      ]
+    },
+    {
+      "id": "the-golden-girls-trivia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Golden Girls Trivia",
+      "description": "Join Blanche, Dorothy, Rose, and Sophia in their Miami home and prove your knowledge on The Golden Girls, the sitcom that broke the mold with its sharp wit and strong elderly characters.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.7,
+      "attempts": 23000,
+      "studyTopicId": "the-golden-girls-series",
+      "tags": [
+        "The Golden Girls",
+        "Sitcoms",
+        "Miami"
+      ]
+    },
+    {
+      "id": "full-house-90s-sitcoms-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Full House & 90s Sitcoms",
+      "description": "Take a trip down memory lane with Full House and other beloved 90s sitcoms. Test your trivia skills and relive the laughter and life lessons from this nostalgic era.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 31000,
+      "studyTopicId": "90s-sitcoms",
+      "tags": [
+        "Full House",
+        "90s TV",
+        "Sitcoms"
+      ]
+    },
+    {
+      "id": "breaking-bad-mastermind-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Breaking Bad Mastermind",
+      "description": "Dive into the complex world of Walter White and test your knowledge on the events, chemistry, and conflicts of Breaking Bad.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.9,
+      "attempts": 32000,
+      "studyTopicId": "breaking-bad-series",
+      "tags": [
+        "Breaking Bad",
+        "Walter White",
+        "TV Series"
+      ]
+    },
+    {
+      "id": "game-of-thrones-houses-lore-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Game of Thrones Houses & Lore",
+      "description": "Explore the rich history and intricate alliances of the great houses in Westeros. Perfect for fans who love the lore behind Game of Thrones.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 41000,
+      "studyTopicId": "game-of-thrones",
+      "tags": [
+        "Game of Thrones",
+        "Westeros",
+        "Houses"
+      ]
+    },
+    {
+      "id": "stranger-things-upside-down-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Stranger Things Upside Down Trivia",
+      "description": "Uncover the mysteries of Hawkins, Indiana and the Upside Down with this challenging trivia for die-hard fans of Stranger Things.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 29500,
+      "studyTopicId": "stranger-things",
+      "tags": [
+        "Stranger Things",
+        "Upside Down",
+        "Sci-Fi"
+      ]
+    },
+    {
+      "id": "the-walking-dead-survival-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Walking Dead Survival Challenge",
+      "description": "How would you fare in a post-apocalyptic world? Assess your survival skills with questions from The Walking Dead series.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 27000,
+      "studyTopicId": "the-walking-dead",
+      "tags": [
+        "The Walking Dead",
+        "Zombies",
+        "Survival"
+      ]
+    },
+    {
+      "id": "better-call-saul-character-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Better Call Saul Character Quiz",
+      "description": "Get to know the compelling characters from Better Call Saul and their complex legal entanglements in this detailed quiz.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 18000,
+      "studyTopicId": "better-call-saul",
+      "tags": [
+        "Better Call Saul",
+        "Saul Goodman",
+        "TV Characters"
+      ]
+    },
+    {
+      "id": "the-crown-british-royals-on-screen-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Crown: British Royals on Screen",
+      "description": "Explore the dramatized history of the British Royal Family as portrayed in The Crown. Perfect for fans of British history and royal drama.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.7,
+      "attempts": 22000,
+      "studyTopicId": "the-crown",
+      "tags": [
+        "The Crown",
+        "British Royals",
+        "TV Drama"
+      ]
+    },
+    {
+      "id": "peaky-blinders-shelby-family-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Peaky Blinders Shelby Family Quiz",
+      "description": "Step into the gritty world of the Shelby family and test your knowledge on the schemes and history of the Peaky Blinders.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 23000,
+      "studyTopicId": "peaky-blinders",
+      "tags": [
+        "Peaky Blinders",
+        "Shelby Family",
+        "British TV"
+      ]
+    },
+    {
+      "id": "suits-legal-tv-drama-questions-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Suits & Legal TV Drama Questions",
+      "description": "Challenge your knowledge of legal strategies and courtroom drama in this quiz featuring questions from TV shows like Suits.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.4,
+      "attempts": 17000,
+      "studyTopicId": "suits-series",
+      "tags": [
+        "Suits",
+        "Legal Drama",
+        "Courtroom"
+      ]
+    },
+    {
+      "id": "the-handmaids-tale-dystopia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Handmaid’s Tale Dystopia Quiz",
+      "description": "Examine the dystopian themes and character survival strategies in The Handmaid's Tale with this thought-provoking quiz.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 25000,
+      "studyTopicId": "the-handmaids-tale",
+      "tags": [
+        "The Handmaid's Tale",
+        "Dystopia",
+        "TV Series"
+      ]
+    },
+    {
+      "id": "the-last-of-us-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Last of Us Trivia",
+      "description": "Test your understanding and recall of the gripping story and characters from The Last of Us video game and TV series.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 21000,
+      "studyTopicId": "the-last-of-us",
+      "tags": [
+        "The Last of Us",
+        "Video Game",
+        "TV Series"
+      ]
+    },
+    {
+      "id": "big-brother-global-trivia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Big Brother Global Trivia",
+      "description": "Explore the strategic gameplay and iconic moments from various Big Brother series around the world.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.2,
+      "attempts": 15000,
+      "studyTopicId": "reality-tv-shows",
+      "tags": [
+        "Big Brother",
+        "Reality TV",
+        "Global Shows"
+      ]
+    },
+    {
+      "id": "survivor-strategic-moves-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Survivor Strategic Moves Quiz",
+      "description": "Challenge yourself with questions about the most cunning and memorable strategic moves in Survivor history.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 22000,
+      "studyTopicId": "survivor-series",
+      "tags": [
+        "Survivor",
+        "Strategy",
+        "Reality Competition"
+      ]
+    },
+    {
+      "id": "rupaul-s-drag-race-icons-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "RuPaul's Drag Race Icons",
+      "description": "Test your knowledge on the most iconic contestants and moments from RuPaul's Drag Race.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 18000,
+      "studyTopicId": "drag-race",
+      "tags": [
+        "RuPaul",
+        "Drag Queens",
+        "TV Show"
+      ]
+    },
+    {
+      "id": "the-voice-judges-winners-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Voice Judges & Winners",
+      "description": "How well do you know the judges and the talented winners of The Voice? Take this quiz to find out.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.3,
+      "attempts": 13000,
+      "studyTopicId": "the-voice",
+      "tags": [
+        "The Voice",
+        "Music Competition",
+        "Judges"
+      ]
+    },
+    {
+      "id": "american-idol-from-kelly-to-now-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "American Idol: From Kelly to Now",
+      "description": "Dive into the history of American Idol, from its first winner Kelly Clarkson to the latest stars.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.4,
+      "attempts": 17500,
+      "studyTopicId": "american-idol",
+      "tags": [
+        "American Idol",
+        "Singing Contest",
+        "Music Stars"
+      ]
+    },
+    {
+      "id": "keeping-up-with-the-kardashians-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Keeping Up with the Kardashians",
+      "description": "Test your knowledge on the drama, fashion, and business ventures of the Kardashian-Jenner family.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.0,
+      "attempts": 12000,
+      "studyTopicId": "celebrity-reality-tv",
+      "tags": [
+        "Kardashians",
+        "Reality TV",
+        "Celebrity Family"
+      ]
+    },
+    {
+      "id": "masterchef-cooking-shows-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "MasterChef & Cooking Shows",
+      "description": "From amateur chefs to culinary masters, test your knowledge on MasterChef and other cooking reality shows.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 19000,
+      "studyTopicId": "cooking-competitions",
+      "tags": [
+        "MasterChef",
+        "Cooking",
+        "TV Shows"
+      ]
+    },
+    {
+      "id": "the-great-british-bake-off-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Great British Bake Off Challenge",
+      "description": "Prove your knowledge of The Great British Bake Off with questions about bakers, recipes, and memorable moments.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.1,
+      "attempts": 14000,
+      "studyTopicId": "baking-shows",
+      "tags": [
+        "Bake Off",
+        "Baking",
+        "British TV"
+      ]
+    },
+    {
+      "id": "shark-tank-dragon-s-den-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Shark Tank / Dragon’s Den Quiz",
+      "description": "Test your knowledge on the cutting-edge inventions and the sharp negotiations from Shark Tank and Dragon's Den.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 20000,
+      "studyTopicId": "business-pitch-shows",
+      "tags": [
+        "Shark Tank",
+        "Dragon's Den",
+        "Entrepreneurs"
+      ]
+    },
+    {
+      "id": "love-island-uk-us-trivia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Love Island (UK / US) Trivia",
+      "description": "How much do you know about the romantic entanglements and island drama from both the UK and US versions of Love Island?",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 3.9,
+      "attempts": 10500,
+      "studyTopicId": "love-island",
+      "tags": [
+        "Love Island",
+        "Reality TV",
+        "Romance"
+      ]
+    },
+    {
+      "id": "marvel-series-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Marvel Series",
+      "description": "Dive into the expansive Marvel Cinematic Universe TV series, exploring pivotal moments from shows like Loki and WandaVision.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 32000,
+      "studyTopicId": "mcu-series",
+      "tags": [
+        "Marvel",
+        "Loki",
+        "WandaVision",
+        "MCU"
+      ]
+    },
+    {
+      "id": "star-trek-generations-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Star Trek Generations Quiz",
+      "description": "Explore different eras of the Star Trek universe, from The Original Series to the latest adventures.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 15800,
+      "studyTopicId": "star-trek",
+      "tags": [
+        "Star Trek",
+        "Sci-Fi",
+        "Space Exploration"
+      ]
+    },
+    {
+      "id": "doctor-who-time-travel-challenge-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Doctor Who Time Travel Challenge",
+      "description": "Test your knowledge on the adventures of the Doctor, traveling through time and facing various foes.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 27500,
+      "studyTopicId": "doctor-who",
+      "tags": [
+        "Doctor Who",
+        "Time Travel",
+        "TARDIS"
+      ]
+    },
+    {
+      "id": "the-mandalorian-star-wars-tv-lore-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Mandalorian & Star Wars TV Lore",
+      "description": "Explore the lore of The Mandalorian and other Star Wars TV series, uncovering secrets of the galaxy.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 36000,
+      "studyTopicId": "star-wars",
+      "tags": [
+        "Star Wars",
+        "The Mandalorian",
+        "Galactic Lore"
+      ]
+    },
+    {
+      "id": "stranger-things-demogorgon-deep-dive-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Stranger Things: Demogorgon Deep Dive",
+      "description": "Unravel the mysteries of Hawkins and the Upside Down with a focus on the enigmatic Demogorgon.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 30000,
+      "studyTopicId": "stranger-things",
+      "tags": [
+        "Stranger Things",
+        "Demogorgon",
+        "Upside Down"
+      ]
+    },
+    {
+      "id": "supernatural-winchester-legacy-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Supernatural: Winchester Legacy Quiz",
+      "description": "Explore the legacy of the Winchester brothers, their epic battles, and the dark world of Supernatural.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 22300,
+      "studyTopicId": "supernatural",
+      "tags": [
+        "Supernatural",
+        "Winchester",
+        "Demons"
+      ]
+    },
+    {
+      "id": "the-witcher-toss-a-coin-trivia-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Witcher – Toss a Coin Trivia",
+      "description": "Challenge your knowledge of The Witcher's world, from Geralt's adventures to the magic that pervades the land.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 19000,
+      "studyTopicId": "the-witcher",
+      "tags": [
+        "The Witcher",
+        "Geralt",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": "smallville-arrowverse-superhero-test-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Smallville / Arrowverse Superhero Test",
+      "description": "Test your knowledge on the heroes of Smallville and the wider Arrowverse, from Superman to Green Arrow.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 16500,
+      "studyTopicId": "arrowverse",
+      "tags": [
+        "Smallville",
+        "Arrowverse",
+        "Superheroes"
+      ]
+    },
+    {
+      "id": "ancient-india-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Ancient Indian Civilization",
+      "description": "Test your knowledge about the ancient civilizations of India, including the Indus Valley Civilization and early kingdoms.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 12500,
+      "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Ancient",
+        "Indus Valley",
+        "Maurya Empire"
+      ]
+    },
+    {
+      "id": "maurya-empire-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Maurya Empire",
+      "description": "Learn about the rise and rule of the Maurya Empire, including Emperor Ashoka and Chandragupta Maurya.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 11000,
+      "image": "https://images.unsplash.com/photo-1623051175855-af6a00631c8f?q=80&w=2069&auto=format&fit=crop",
+      "tags": [
+        "Ashoka",
+        "Chandragupta",
+        "Mauryan Dynasty"
+      ]
+    },
+    {
+      "id": "gupta-golden-age-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Gupta Empire and the Golden Age",
+      "description": "Explore the scientific, cultural, and economic advancements during the Gupta Empire.",
+      "questionCount": 18,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 9000,
+      "image": "https://images.unsplash.com/photo-1555724978-936479df20cd?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "Gupta Empire",
+        "Golden Age",
+        "Aryabhata"
+      ]
+    },
+    {
+      "id": "mughal-empire-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Mughal Empire",
+      "description": "Test your knowledge of the Mughal rulers, their administration, and contributions to Indian history.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.9,
+      "attempts": 15000,
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2076&auto=format&fit=crop",
+      "tags": [
+        "Mughal",
+        "Akbar",
+        "Shah Jahan"
+      ]
+    },
+    {
+      "id": "maratha-history-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Maratha Empire",
+      "description": "Dive into the history of the Maratha Empire, its key battles, and its impact on Indian history.",
+      "questionCount": 22,
+      "timeLimit": 18,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 9500,
+      "image": "https://images.unsplash.com/photo-1566020753224-694722fae4be?q=80&w=2069&auto=format&fit=crop",
+      "tags": [
+        "Shivaji",
+        "Maratha",
+        "Peshwa"
+      ]
+    },
+    {
+      "id": "british-colonial-rule-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "British Colonial Rule in India",
+      "description": "Understand the impact of British rule, including the East India Company, revolts, and independence movements.",
+      "questionCount": 28,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 14000,
+      "image": "https://images.unsplash.com/photo-1527134705643-51fe9031d201?q=80&w=2070&auto=format&fit=crop",
+      "tags": [
+        "British Raj",
+        "East India Company",
+        "1857 Revolt"
+      ]
+    },
+    {
+      "id": "indian-independence-movement-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Indian Independence Movement",
+      "description": "Explore the leaders, movements, and key events that led to India's independence in 1947.",
+      "questionCount": 35,
+      "timeLimit": 25,
+      "difficulty": "Hard",
+      "popularity": 5.0,
+      "attempts": 20000,
+      "image": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?q=80&w=2076&auto=format&fit=crop",
+      "tags": [
+        "Gandhi",
+        "Nehru",
+        "Quit India Movement"
+      ]
+    },
+    {
+      "id": "freedom-fighters-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Freedom Fighters of India",
+      "description": "Learn about the brave men and women who fought for India's independence.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 12000,
+      "image": "https://images.unsplash.com/photo-1569615913246-01557f631ec4?q=80&w=2069&auto=format&fit=crop",
+      "tags": [
+        "Bhagat Singh",
+        "Subhash Chandra Bose",
+        "Revolutionaries"
+      ]
+    },
+    {
+      "id": "partition-of-india-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Partition of India",
+      "description": "Test your knowledge about the Partition of India in 1947, its causes, and consequences.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 11000,
+      "image": "https://images.unsplash.com/photo-1566642632861-6997be73a526?q=80&w=2071&auto=format&fit=crop",
+      "tags": [
+        "Partition",
+        "1947",
+        "Indo-Pak"
+      ]
+    },
+    {
+      "id": "modern-india-trivia-questions-and-answers",
+      "categoryId": "history",
+      "subcategoryId": "indian",
+      "name": "Modern Indian History",
+      "description": "Understand the major events and developments in India post-independence.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 9500,
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop",
+      "tags": [
+        "Post Independence",
+        "Economic Reforms",
+        "Political Leaders"
+      ]
+    }
+  ]
+}

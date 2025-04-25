@@ -1,0 +1,94 @@
+{
+  "subcategories": [
+    {
+      "id": "indian-history",
+      "mainTopicId": "history",
+      "name": "Indian History",
+      "description": "Explore the rich and diverse history of India from ancient civilizations to modern times",
+      "metaDescription": "Study comprehensive materials on Indian history including ancient civilizations, medieval empires, colonial period, and independence movement.",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop",
+      "totalStudyMaterials": 5,
+      "popularTags": ["Ancient India", "Mughal Empire", "British Raj", "Freedom Movement"]
+    },
+    {
+      "id": "world-wars",
+      "mainTopicId": "history",
+      "name": "World Wars",
+      "description": "Learn about the two major global conflicts that shaped the 20th century",
+      "metaDescription": "Study materials covering the World Wars, including causes, key events, important figures, and global impact.",
+      "image": "https://images.unsplash.com/photo-1580130732478-4e339fb6836f?q=80&w=2069&auto=format&fit=crop",
+      "totalStudyMaterials": 4,
+      "popularTags": ["WWI", "WWII", "Military History", "Geopolitics"]
+    },
+    {
+      "id": "european-history",
+      "mainTopicId": "history",
+      "name": "European History",
+      "description": "Discover the historical events and civilizations that shaped Europe",
+      "metaDescription": "Study European history through comprehensive materials on ancient Greece, Roman Empire, Middle Ages, Renaissance, and modern Europe.",
+      "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 3,
+      "popularTags": ["Ancient Greece", "Roman Empire", "Renaissance", "Industrial Revolution"]
+    },
+    {
+      "id": "physics",
+      "mainTopicId": "science",
+      "name": "Physics",
+      "description": "Explore the fundamental principles that govern the physical world",
+      "metaDescription": "Study physics with materials covering mechanics, thermodynamics, electromagnetism, quantum physics, and relativity theory.",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 6,
+      "popularTags": ["Mechanics", "Electromagnetism", "Quantum Physics", "Relativity"]
+    },
+    {
+      "id": "biology",
+      "mainTopicId": "science",
+      "name": "Biology",
+      "description": "Learn about living organisms, their structure, function, growth, and evolution",
+      "metaDescription": "Comprehensive study materials on biology covering cell biology, genetics, evolution, ecology, and human physiology.",
+      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?q=80&w=2069&auto=format&fit=crop",
+      "totalStudyMaterials": 5,
+      "popularTags": ["Cell Biology", "Genetics", "Evolution", "Ecology"]
+    },
+    {
+      "id": "chemistry",
+      "mainTopicId": "science",
+      "name": "Chemistry",
+      "description": "Discover the composition, structure, properties, and changes of matter",
+      "metaDescription": "Study chemistry with materials on atomic structure, chemical bonding, reactions, organic chemistry, and biochemistry.",
+      "image": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 4,
+      "popularTags": ["Organic Chemistry", "Inorganic Chemistry", "Chemical Reactions", "Periodic Table"]
+    },
+    {
+      "id": "physical-geography",
+      "mainTopicId": "geography",
+      "name": "Physical Geography",
+      "description": "Study the natural features and processes of the Earth's surface",
+      "metaDescription": "Learn about physical geography including landforms, climate systems, natural resources, and environmental processes.",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 5,
+      "popularTags": ["Landforms", "Climate", "Natural Resources", "Environmental Geography"]
+    },
+    {
+      "id": "human-geography",
+      "mainTopicId": "geography",
+      "name": "Human Geography",
+      "description": "Explore how humans interact with and shape their environments",
+      "metaDescription": "Study human geography with materials on population, cultural patterns, economic activities, urban development, and geopolitics.",
+      "image": "https://images.unsplash.com/photo-1569553356158-9636113f1e75?q=80&w=2074&auto=format&fit=crop",
+      "totalStudyMaterials": 4,
+      "popularTags": ["Population", "Cultural Geography", "Economic Geography", "Urbanization"]
+    },
+    {
+      "id": "movies",
+      "mainTopicId": "entertainment",
+      "name": "Movies",
+      "description": "Explore the world of cinema, including films, directors, awards, and film history",
+      "metaDescription": "Study materials on film history, movie awards, iconic directors, and significant movements in cinema history.",
+      "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2025&auto=format&fit=crop",
+      "totalStudyMaterials": 5,
+      "popularTags": ["Film History", "Academy Awards", "Directors", "Film Techniques"]
+    }
+  ]
+} 

@@ -1,0 +1,64 @@
+{
+  "subcategories": [
+    {
+      "id": "indian",
+      "categoryId": "history",
+      "name": "Indian History",
+      "description": "Explore the rich history of India",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop",
+      "totalQuizzes": 45,
+      "difficulty": "Medium",
+      "ageGroup": "12+"
+    },
+    {
+      "id": "uk",
+      "categoryId": "history",
+      "name": "UK History",
+      "description": "Discover the history of the United Kingdom",
+      "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=2071&auto=format&fit=crop",
+      "totalQuizzes": 38,
+      "difficulty": "Hard",
+      "ageGroup": "14+"
+    },
+    {
+      "id": "archaeological",
+      "categoryId": "history",
+      "name": "Archaeological History",
+      "description": "Uncover ancient civilizations and archaeological discoveries",
+      "image": "https://images.unsplash.com/photo-1606820854416-439b3305ff39?q=80&w=2070&auto=format&fit=crop",
+      "totalQuizzes": 25,
+      "difficulty": "Expert",
+      "ageGroup": "16+"
+    },
+    {
+      "id": "movies",
+      "categoryId": "entertainment",
+      "name": "Movies",
+      "description": "Test your knowledge of cinema and film history",
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2059&auto=format&fit=crop",
+      "totalQuizzes": 55,
+      "difficulty": "Medium",
+      "ageGroup": "12+"
+    },
+    {
+      "id": "tv-shows",
+      "categoryId": "entertainment",
+      "name": "TV Shows",
+      "description": "Challenge yourself with television trivia",
+      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop",
+      "totalQuizzes": 48,
+      "difficulty": "Easy",
+      "ageGroup": "10+"
+    },
+    {
+      "id": "music",
+      "categoryId": "entertainment",
+      "name": "Music",
+      "description": "Test your knowledge of artists, songs, and music history",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop",
+      "totalQuizzes": 42,
+      "difficulty": "Medium",
+      "ageGroup": "12+"
+    }
+  ]
+}

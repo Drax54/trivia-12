@@ -1,0 +1,19 @@
+{
+  "attempts": {
+    "oscar-winners-trivia-questions-answers": {
+      "127.0.0.1": {
+        "totalAttempts": 1,
+        "lastAttempt": "2025-03-26T12:15:22.000Z",
+        "scores": [
+          {
+            "ip": "127.0.0.1",
+            "quizId": "oscar-winners-trivia-questions-answers",
+            "score": 8,
+            "totalQuestions": 10,
+            "timestamp": "2025-03-26T12:15:22.000Z"
+          }
+        ]
+      }
+    }
+  }
+}

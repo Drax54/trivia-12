@@ -1,0 +1,101 @@
+{
+  "mainTopics": [
+    {
+      "id": "history",
+      "name": "History",
+      "description": "Explore historical events, civilizations, and influential figures throughout time",
+      "metaDescription": "Study comprehensive history materials covering ancient civilizations, world wars, important historical figures, and major events that shaped our world.",
+      "icon": "BookOpen",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=2074&auto=format&fit=crop",
+      "totalStudyMaterials": 12,
+      "relatedQuizzes": 8,
+      "popularTags": ["Ancient History", "World Wars", "Civilizations", "Historical Figures"],
+      "featured": true
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Discover scientific concepts, theories, and breakthroughs across various disciplines",
+      "metaDescription": "Learn about scientific principles, discoveries, and theories across physics, chemistry, biology, astronomy, and more with our comprehensive study materials.",
+      "icon": "Atom",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 15,
+      "relatedQuizzes": 10,
+      "popularTags": ["Physics", "Biology", "Chemistry", "Astronomy"],
+      "featured": true
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "description": "Learn about countries, landforms, cultures, and natural phenomena around the world",
+      "metaDescription": "Study geography with materials covering countries, continents, physical features, climate zones, and cultural geography from around the world.",
+      "icon": "Globe",
+      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop",
+      "totalStudyMaterials": 9,
+      "relatedQuizzes": 7,
+      "popularTags": ["Countries", "Physical Geography", "Climate", "Cultural Geography"],
+      "featured": true
+    },
+    {
+      "id": "literature",
+      "name": "Literature",
+      "description": "Explore literary works, authors, and movements throughout history",
+      "metaDescription": "Dive into the world of literature with study materials on classic novels, famous authors, literary movements, poetry, and critical analysis.",
+      "icon": "BookText",
+      "image": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 8,
+      "relatedQuizzes": 5,
+      "popularTags": ["Classic Literature", "Authors", "Poetry", "Literary Movements"],
+      "featured": false
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Master mathematical concepts, formulas, and problem-solving techniques",
+      "metaDescription": "Study mathematics with comprehensive materials covering algebra, geometry, calculus, statistics, and other mathematical concepts and applications.",
+      "icon": "PieChart",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 10,
+      "relatedQuizzes": 6,
+      "popularTags": ["Algebra", "Geometry", "Calculus", "Statistics"],
+      "featured": false
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Learn about technological innovations, computer science, and digital trends",
+      "metaDescription": "Explore technology study materials covering computer science, programming, artificial intelligence, internet history, and modern technological innovations.",
+      "icon": "Cpu",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 14,
+      "relatedQuizzes": 9,
+      "popularTags": ["Computer Science", "Programming", "AI", "Digital Innovation"],
+      "featured": true
+    },
+    {
+      "id": "arts",
+      "name": "Arts",
+      "description": "Discover art movements, famous artists, and artistic techniques throughout history",
+      "metaDescription": "Study the arts with materials on famous artists, art movements, techniques, art history, and cultural significance of various art forms.",
+      "icon": "Palette",
+      "image": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 7,
+      "relatedQuizzes": 4,
+      "popularTags": ["Art History", "Famous Artists", "Art Movements", "Techniques"],
+      "featured": false
+    },
+  
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "description": "Explore film, television, and other entertainment media throughout history",
+      "metaDescription": "Study materials about movies, TV shows, awards, actors, directors and the history of entertainment industry worldwide.",
+      "icon": "Film",
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2070&auto=format&fit=crop",
+      "totalStudyMaterials": 5,
+      "relatedQuizzes": 8,
+      "popularTags": ["Movies", "Awards", "Directors", "Film History"],
+      "featured": true
+    }
+  ]
+} 
