@@ -1,0 +1,544 @@
+{
+  "quizzes": [
+    {
+      "id": "ancient-indian-civilization-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Ancient Indian Civilization",
+      "description": "Explore the rich heritage and profound beginnings of Ancient Indian Civilization, tracing back to some of the earliest human activities and cultural advancements on the subcontinent.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 12000,
+      "studyTopicId": "ancient-india",
+      "tags": [
+        "Ancient India",
+        "Civilization",
+        "Cultural Heritage"
+      ]
+    },
+    {
+      "id": "indus-valley-civilization-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indus Valley Civilization Quiz",
+      "description": "Dive into the mysteries of the Indus Valley Civilization, one of the world's oldest urban cultures, known for its advanced city planning, architecture, and social structure.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 9500,
+      "studyTopicId": "harappan-culture",
+      "tags": [
+        "Harappa",
+        "Mohenjo-Daro",
+        "Ancient Cities"
+      ]
+    },
+    {
+      "id": "vedic-age-and-early-kingdoms-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Vedic Age and Early Kingdoms",
+      "description": "Challenge your understanding of the Vedic Age and the formation of early kingdoms in India, which laid the foundations for religion, philosophy, and governance.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 8000,
+      "studyTopicId": "vedic-period",
+      "tags": [
+        "Vedas",
+        "Early Kingdoms",
+        "Indian Philosophy"
+      ]
+    },
+    {
+      "id": "maurya-empire-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Maurya Empire",
+      "description": "Test your knowledge on the Maurya Empire, which under the leadership of rulers like Chandragupta and Ashoka, became one of the largest empires in the Indian subcontinent.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 10500,
+      "studyTopicId": "chandragupta-maurya",
+      "tags": [
+        "Chandragupta",
+        "Maurya Empire",
+        "Ashoka the Great"
+      ]
+    },
+    {
+      "id": "ashoka-the-great-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Ashoka the Great Quiz",
+      "description": "Learn about Ashoka the Great, whose reign marked a significant and enlightened period in Indian history, known for his promotion of Buddhism and welfare policies.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 13000,
+      "studyTopicId": "king-ashoka",
+      "tags": [
+        "Ashoka",
+        "Mauryan Ruler",
+        "Buddhism"
+      ]
+    },
+    {
+      "id": "gupta-empire-and-golden-age-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Gupta Empire and Golden Age",
+      "description": "Explore the Gupta Empire, often referred to as the Golden Age of India, where significant advances in science, arts, literature, and philosophy flourished.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 11000,
+      "studyTopicId": "gupta-dynasty",
+      "tags": [
+        "Gupta Empire",
+        "Golden Age",
+        "Classical India"
+      ]
+    },
+    {
+      "id": "south-indian-kingdoms-cholas-cheras-pandyas-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "South Indian Kingdoms (Cholas, Cheras, Pandyas)",
+      "description": "Delve into the history of the South Indian Kingdoms, focusing on the Cholas, Cheras, and Pandyas, and their contributions to Indian culture, architecture, and politics.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 7000,
+      "studyTopicId": "dravidian-kingdoms",
+      "tags": [
+        "Chola Dynasty",
+        "Chera Dynasty",
+        "Pandya Dynasty"
+      ]
+    },
+    {
+      "id": "delhi-sultanate-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Delhi Sultanate",
+      "description": "Assess your knowledge of the Delhi Sultanate, a Muslim kingdom based primarily in Delhi that stretched over large parts of the Indian subcontinent for 320 years.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.4,
+      "attempts": 6500,
+      "studyTopicId": "delhi-sultanate",
+      "tags": [
+        "Delhi Sultanate",
+        "Medieval India",
+        "Islamic Rule"
+      ]
+    },
+    {
+      "id": "mughal-empire-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Mughal Empire",
+      "description": "Test your expertise on the Mughal Empire, which is known for its rich cultural heritage, monumental architecture, and significant impact on the history of India.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 15000,
+      "studyTopicId": "mughal-period",
+      "tags": [
+        "Mughal Empire",
+        "Akbar the Great",
+        "Taj Mahal"
+      ]
+    },
+    {
+      "id": "maratha-empire-and-shivaji-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Maratha Empire and Shivaji",
+      "description": "Explore the rise of the Maratha Empire under Shivaji's leadership, known for his military tactics, governance reforms, and the establishment of a competent and progressive administration.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 12000,
+      "studyTopicId": "shivaji-maharaj",
+      "tags": [
+        "Maratha Empire",
+        "Shivaji",
+        "Indian Warriors"
+      ]
+    },
+    {
+      "id": "sikh-empire-and-maharaja-ranjit-singh-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Sikh Empire and Maharaja Ranjit Singh",
+      "description": "Gauge your understanding of the Sikh Empire and its most celebrated leader, Maharaja Ranjit Singh, whose rule marked a golden age in the history of the Sikh people and northern India.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 5000,
+      "studyTopicId": "ranjit-singh",
+      "tags": [
+        "Sikh Empire",
+        "Ranjit Singh",
+        "Punjab History"
+      ]
+    },
+    {
+      "id": "indian-freedom-fighters-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian Freedom Fighters",
+      "description": "Honor the legacy of the Indian Freedom Fighters who fought tirelessly against colonial rule to secure India's independence. This quiz covers heroes from various regions and factions.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 20000,
+      "studyTopicId": "indian-independence",
+      "tags": [
+        "Freedom Fighters",
+        "Indian Independence",
+        "National Heroes"
+      ]
+    },
+    {
+      "id": "revolt-of-1857-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Revolt of 1857 Quiz",
+      "description": "Test your knowledge on the Revolt of 1857, the first major uprising against the British East India Company's rule, which is often considered as the beginning of the Indian struggle for independence.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.3,
+      "attempts": 8500,
+      "studyTopicId": "sepoy-mutiny",
+      "tags": [
+        "1857 Revolt",
+        "Sepoy Mutiny",
+        "First War of Independence"
+      ]
+    },
+    {
+      "id": "indian-national-congress-timeline-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian National Congress Timeline",
+      "description": "Delve into the chronological events of the Indian National Congress, from its formation in 1885 to its pivotal role in the Indian independence movement and post-independence era.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.2,
+      "attempts": 7600,
+      "studyTopicId": "congress-party-history",
+      "tags": [
+        "Indian National Congress",
+        "Freedom Struggle",
+        "Political History"
+      ]
+    },
+    {
+      "id": "non-cooperation-civil-disobedience-movement-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Non-Cooperation & Civil Disobedience Movement Quiz",
+      "description": "Explore the major non-violent movements led by Mahatma Gandhi against British rule, focusing on the Non-Cooperation and Civil Disobedience movements and their impact on the Indian independence struggle.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 10000,
+      "studyTopicId": "gandhi-movements",
+      "tags": [
+        "Gandhi",
+        "Non-Cooperation",
+        "Civil Disobedience"
+      ]
+    },
+    {
+      "id": "quit-india-movement-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Quit India Movement",
+      "description": "Explore the pivotal moments of the Quit India Movement, a major part of the Indian independence struggle against British rule.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 13200,
+      "studyTopicId": "indian-independence",
+      "tags": [
+        "Gandhi",
+        "1942",
+        "Freedom Struggle"
+      ]
+    },
+    {
+      "id": "partition-of-india-1947-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Partition of India (1947)",
+      "description": "Dive into the complex and heart-wrenching history of the Partition of India in 1947, examining its causes, impacts, and key figures.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 15800,
+      "studyTopicId": "partition-1947",
+      "tags": [
+        "Partition",
+        "Independence",
+        "India-Pakistan"
+      ]
+    },
+    {
+      "id": "indian-independence-movement-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian Independence Movement",
+      "description": "Challenge your knowledge on the Indian Independence Movement, from its early days to the final victory in 1947.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 21000,
+      "studyTopicId": "indian-independence",
+      "tags": [
+        "Freedom Fighters",
+        "British Raj",
+        "Non-Violence"
+      ]
+    },
+    {
+      "id": "indian-constitution-republic-formation-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian Constitution & Republic Formation Quiz",
+      "description": "Test your understanding of the formation of the Indian Constitution and the country's transition to a republic.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 11900,
+      "studyTopicId": "constitution-india",
+      "tags": [
+        "Constitution",
+        "Republic",
+        "Ambedkar"
+      ]
+    },
+    {
+      "id": "indian-post-independence-history-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian Post-Independence History",
+      "description": "Explore the significant events and developments in India after gaining independence in 1947.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.4,
+      "attempts": 9600,
+      "studyTopicId": "post-independence-india",
+      "tags": [
+        "Modern India",
+        "Post-1947",
+        "National Development"
+      ]
+    },
+    {
+      "id": "emergency-era-1975-77-quiz-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Emergency Era (1975\u201377) Quiz",
+      "description": "Assess your knowledge of the Emergency Era in India, a period marked by political unrest and constitutional change.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Hard",
+      "popularity": 4.2,
+      "attempts": 7200,
+      "studyTopicId": "emergency-india",
+      "tags": [
+        "Emergency",
+        "Indira Gandhi",
+        "1975-77"
+      ]
+    },
+    {
+      "id": "history-of-indian-railways-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "History of Indian Railways",
+      "description": "Journey through the evolution of the Indian Railways, from its inception in the 1850s to becoming one of the world's largest railway networks.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.5,
+      "attempts": 11000,
+      "studyTopicId": "indian-railways",
+      "tags": [
+        "Railways",
+        "Transport",
+        "British India"
+      ]
+    },
+    {
+      "id": "british-east-india-company-rule-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "British East India Company Rule",
+      "description": "Examine the era of British East India Company rule in India, focusing on its strategies, administration, and the impact on Indian society.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 13500,
+      "studyTopicId": "east-india-company",
+      "tags": [
+        "Colonialism",
+        "East India Company",
+        "British Rule"
+      ]
+    },
+    {
+      "id": "socio-religious-reform-movements-in-india-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Socio-Religious Reform Movements in India",
+      "description": "Uncover the transformative socio-religious reform movements in India that aimed to address social injustices and introduce progressive ideas.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.3,
+      "attempts": 8900,
+      "studyTopicId": "reform-movements",
+      "tags": [
+        "Reform",
+        "Social Change",
+        "19th Century"
+      ]
+    },
+    {
+      "id": "tribal-uprisings-in-colonial-india-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Tribal Uprisings in Colonial India",
+      "description": "Explore the fierce tribal uprisings that occurred in colonial India as indigenous communities resisted British dominance.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.1,
+      "attempts": 5400,
+      "studyTopicId": "tribal-uprisings",
+      "tags": [
+        "Tribal History",
+        "Uprisings",
+        "Colonial Resistance"
+      ]
+    },
+    {
+      "id": "women-in-indian-independence-movement-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Women in Indian Independence Movement",
+      "description": "Discover the crucial roles played by women in the Indian Independence Movement, highlighting their contributions and struggles.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 10200,
+      "studyTopicId": "women-freedom-fighters",
+      "tags": [
+        "Women Leaders",
+        "Freedom Struggle",
+        "Inspirational Women"
+      ]
+    },
+    {
+      "id": "princely-states-integration-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Princely States & Integration",
+      "description": "Analyze the integration of princely states into modern India post-independence, focusing on the diplomatic negotiations and strategies used.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.0,
+      "attempts": 6800,
+      "studyTopicId": "princely-states",
+      "tags": [
+        "Princely States",
+        "Sardar Patel",
+        "Integration"
+      ]
+    },
+    {
+      "id": "history-of-indian-currency-economy-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "History of Indian Currency & Economy",
+      "description": "Trace the evolution of Indian currency and economic policies from ancient times through modern day.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 9800,
+      "studyTopicId": "indian-economy",
+      "tags": [
+        "Indian Currency",
+        "Economic History",
+        "Rupee"
+      ]
+    },
+    {
+      "id": "indian-political-history-post-1947-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "Indian Political History Post-1947",
+      "description": "Examine the major political events and figures that have shaped India since it became an independent nation in 1947.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 12600,
+      "studyTopicId": "post-1947-politics",
+      "tags": [
+        "Indian Politics",
+        "Post-1947",
+        "Prime Ministers"
+      ]
+    },
+    {
+      "id": "indias-role-in-world-wars-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "indian",
+      "name": "India's Role in World Wars",
+      "description": "Explore the significant yet often overlooked contributions of India in the global conflicts of World War I and World War II.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Easy",
+      "popularity": 4.3,
+      "attempts": 8500,
+      "studyTopicId": "world-wars",
+      "tags": [
+        "World War I",
+        "World War II",
+        "Indian Soldiers"
+      ]
+    }
+  ]
+}

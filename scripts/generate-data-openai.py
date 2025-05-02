@@ -2,18 +2,17 @@
 Trivia App Data Generator using OpenAI API
 
 This script generates JSON data for quizzes and their questions using the OpenAI API.
-It takes user input in the format "Under [Category], [Subcategory1], [Subcategory2], [Subcategory3]..."
-and generates appropriate JSON files that match the existing format.
+It reads quiz data from a CSV file and generates appropriate JSON files that match the existing format.
 
 Usage: python generate-data-openai.py
 
 Prerequisites:
 - Python 3.6+
 - OpenAI API key set as an environment variable OPENAI_API_KEY
-- Required packages: openai, python-dotenv, os, json, datetime, re, random
+- Required packages: openai, python-dotenv, os, json, datetime, re, random, pandas
 
 Installation:
-pip install openai python-dotenv
+pip install openai python-dotenv pandas
 """
 
 import os
@@ -22,10 +21,11 @@ import datetime
 import re
 import time
 import random
+import pandas as pd
 from openai import OpenAI
 
 # Hardcoded API key directly in the code
-OPENAI_API_KEY = "key"
+OPENAI_API_KEY = "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"
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -34,33 +34,10 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "generated")
 TIMESTAMP = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 MODEL = "gpt-4-turbo"  # Default to GPT-4 Turbo
+CSV_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "Quiz-data.csv")
 
 # Create output directory if it doesn't exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-def parse_input(user_input):
-    """
-    Parse user input in the format "Under [Category], [Subcategory1], [Subcategory2], ..."
-    
-    Returns:
-        tuple: (category, subcategories)
-    """
-    # Match "Under X" or "Under the X" at the beginning
-    category_match = re.match(r"Under\s+(?:the\s+)?([^,]+?)\s*(?:Sub\s*C[a-z]*)?", user_input, re.IGNORECASE)
-    
-    if not category_match:
-        raise ValueError("Input must start with 'Under [Category]'")
-    
-    category = category_match.group(1).strip()
-    
-    # Remove the category part and split the rest by commas
-    remaining = user_input[category_match.end():].strip()
-    if remaining.startswith(","):
-        remaining = remaining[1:].strip()
-    
-    subcategories = [s.strip() for s in remaining.split(",") if s.strip()]
-    
-    return category, subcategories
 
 def call_openai_api(system_prompt, user_prompt, temperature=0.7):
     """
@@ -83,10 +60,63 @@ def call_openai_api(system_prompt, user_prompt, temperature=0.7):
         print(f"Error calling OpenAI API: {e}")
         raise
 
-def generate_quizzes_data(category, subcategories):
+def read_quiz_data_from_csv():
+    """
+    Read quiz data from CSV file
+    
+    Returns:
+        tuple: (category, subcategories_dict)
+        where subcategories_dict is a dictionary mapping subcategory names to their IDs
+    """
+    try:
+        df = pd.read_csv(CSV_FILE)
+        if df.empty:
+            raise ValueError("CSV file is empty")
+            
+        # Get unique category (should be 'Entertainment' for all rows)
+        categories = df['Category ID'].unique()
+        if len(categories) != 1:
+            raise ValueError(f"Expected exactly one category, found {len(categories)}")
+        category = categories[0]
+        
+        # Create dictionary of subcategories and their IDs
+        subcategories_dict = {}
+        for _, row in df.iterrows():
+            quiz_name = row['Quiz'].replace(' Trivia', '')  # Remove 'Trivia' from the name
+            subcategories_dict[quiz_name] = row['Subcategory ID']
+            
+        return category, subcategories_dict
+    except Exception as e:
+        print(f"Error reading CSV file: {e}")
+        raise
+
+def clean_json_string(json_str):
+    """
+    Clean a JSON string to handle common issues like control characters
+    
+    Args:
+        json_str (str): The JSON string to clean
+        
+    Returns:
+        str: The cleaned JSON string
+    """
+    # Remove any control characters
+    json_str = re.sub(r'[\x00-\x1F\x7F]', '', json_str)
+    
+    # Handle any trailing commas in arrays or objects
+    json_str = re.sub(r',\s*}', '}', json_str)
+    json_str = re.sub(r',\s*]', ']', json_str)
+    
+    return json_str
+
+def generate_quizzes_data(category, subcategories_dict):
     """
     Generate quizzes data for the given category and subcategories
     
+    Args:
+        category (str): The category name
+        subcategories_dict (dict): Dictionary mapping subcategory names to their IDs
+        
     Returns:
         dict: Quizzes data in the format matching quizzes.json
     """
@@ -136,35 +166,31 @@ Follow these guidelines:
                     "Best Picture",
                     "Award Winners"
                 ]
-            },
-            {
-                "id": "classic-hollywood-trivia-questions-answers",
-                "categoryId": "entertainment",
-                "subcategoryId": "movies",
-                "name": "Classic Hollywood",
-                "description": "How much do you know about the golden age of Hollywood?",
-                "questionCount": 25,
-                "timeLimit": 15,
-                "difficulty": "Hard",
-                "popularity": 4.5,
-                "attempts": 19800,
-                "studyTopicId": "classic-hollywood-history",
-                "tags": ["Hollywood", "Classic Movies", "Film Legends"]
             }
         ]
     }
 
-    user_prompt = f"""
+    # Convert subcategories_dict to a list of names
+    subcategory_names = list(subcategories_dict.keys())
+    
+    # Split into batches of 15 (or less for the last batch)
+    batch_size = 15
+    all_quizzes = {"quizzes": []}
+    
+    # Process subcategories in batches
+    for i in range(0, len(subcategory_names), batch_size):
+        batch = subcategory_names[i:i+batch_size]
+        print(f"Processing batch {i//batch_size + 1} of {(len(subcategory_names) + batch_size - 1) // batch_size} ({len(batch)} quizzes)...")
+        
+        user_prompt = f"""
 Generate quiz data for these inputs:
 - Category: {category}
-- Subcategories: {", ".join(subcategories)}
+- Subcategories: {', '.join(batch)}
 
 IMPORTANT FORMAT REQUIREMENTS:
 1. Always use "{category_id_fixed}" as the categoryId for all quizzes
-2. For each quiz, derive the subcategoryId from the subcategory name (lowercase with hyphens)
-   - Example: For "Kids Movies", the subcategoryId should be "kids-movies"
+2. For each quiz, use the provided subcategoryId from the dictionary
 3. The id field MUST follow this format: [subcategory-name-in-lowercase-with-hyphens]-trivia-questions-answers
-   - Example: For "Kids Movies", the id must be "kids-movies-trivia-questions-answers"
 4. The quiz name MUST be EXACTLY the same as the subcategory name
 5. Include a studyTopicId field that relates to the quiz topic
 
@@ -176,16 +202,56 @@ Use this JSON format:
 Return only valid, well-formatted JSON with NO additional text or explanations.
 """
 
-    response = call_openai_api(system_prompt, user_prompt)
+        response = call_openai_api(system_prompt, user_prompt)
+        
+        try:
+            # Clean the response and parse as JSON
+            cleaned_response = clean_json_string(response)
+            batch_quizzes_data = json.loads(cleaned_response)
+            
+            # Add subcategory_id to each quiz in this batch
+            for quiz in batch_quizzes_data["quizzes"]:
+                # Try to find the matching subcategory
+                for subcat_name, subcat_id in subcategories_dict.items():
+                    if quiz["name"] == subcat_name:
+                        quiz["subcategoryId"] = subcat_id
+                        break
+            
+            # Add quizzes from this batch to the overall list
+            all_quizzes["quizzes"].extend(batch_quizzes_data["quizzes"])
+            
+            # Add a small delay to avoid rate limiting
+            time.sleep(2)
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse quizzes data from OpenAI API response: {e}")
+            print("Attempting to fix JSON manually...")
+            
+            # Try to extract just the quizzes array if the full JSON can't be parsed
+            try:
+                # Look for the quizzes array
+                match = re.search(r'"quizzes"\s*:\s*\[(.*?)\]\s*}', response, re.DOTALL)
+                if match:
+                    # Try to parse just the quizzes array
+                    quizzes_array = f'{{"quizzes": [{match.group(1)}]}}'
+                    cleaned_quizzes = clean_json_string(quizzes_array)
+                    batch_quizzes_data = json.loads(cleaned_quizzes)
+                    
+                    # Add quizzes from this batch to the overall list
+                    all_quizzes["quizzes"].extend(batch_quizzes_data["quizzes"])
+                    print(f"Successfully extracted {len(batch_quizzes_data['quizzes'])} quizzes from partial JSON")
+                    
+                    # Add a small delay to avoid rate limiting
+                    time.sleep(2)
+                    continue
+            except Exception as inner_e:
+                print(f"Failed to extract quizzes from partial JSON: {inner_e}")
+            
+            print("Response was:", response)
+            print("Skipping this batch and continuing...")
+            time.sleep(2)
+            continue  # Skip this batch but continue with the next one
     
-    try:
-        # Parse the response as JSON
-        quizzes_data = json.loads(response)
-        return quizzes_data
-    except json.JSONDecodeError:
-        print("Failed to parse quizzes data from OpenAI API response")
-        print("Response was:", response)
-        raise
+    return all_quizzes
 
 def generate_questions_data(quizzes_data):
     """
@@ -297,16 +363,18 @@ Return only valid, well-formatted JSON with NO additional text or explanations.
         response = call_openai_api(system_prompt, user_prompt)
         
         try:
-            # Parse the response as JSON
-            questions_quiz_data = json.loads(response)
+            # Clean the response and parse as JSON
+            cleaned_response = clean_json_string(response)
+            questions_quiz_data = json.loads(cleaned_response)
             questions_data["quizzes"].append(questions_quiz_data)
             
             # Add a small delay to avoid rate limiting
             time.sleep(1)
-        except json.JSONDecodeError:
-            print(f"Failed to parse questions data for quiz {quiz['name']} from OpenAI API response")
-            print("Response was:", response)
-            raise
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse questions data for quiz {quiz['name']} from OpenAI API response: {e}")
+            print("Skipping this quiz and continuing...")
+            time.sleep(1)
+            continue  # Skip this quiz but continue with the next one
     
     return questions_data
 
@@ -315,38 +383,23 @@ def main():
     print("============================================")
     
     try:
-        # Get user input
-        print("\nEnter your input in the format: Under [Category], [Subcategory1], [Subcategory2], ...")
-        print("Example: Under Movies, Action Movies, Classic Movies, Sci Fi Movies\n")
-        print("Note: All quizzes will be generated with:")
-        print(" - categoryId: 'entertainment'")
-        print(" - subcategoryId: derived from each subcategory name")
-        print(" - The id field will be derived from each subcategory name")
-        print(" - A relevant studyTopicId will be included\n")
+        # Read quiz data from CSV
+        print("\n📖 Reading quiz data from CSV file...")
+        category, subcategories_dict = read_quiz_data_from_csv()
         
-        user_input = input("> ")
-        
-        # Parse user input
-        category, subcategories = parse_input(user_input)
-        
-        # Limit to 5 subcategories
-        if len(subcategories) > 5:
-            print(f"⚠️ Limiting to 5 subcategories (you provided {len(subcategories)})")
-            subcategories = subcategories[:5]
-        
-        print(f"\n✅ Parsed input:")
+        print(f"\n✅ Read data from CSV:")
         print(f"- Category: {category}")
-        print(f"- Subcategories: {', '.join(subcategories)}")
+        print(f"- Number of subcategories: {len(subcategories_dict)}")
         
-        if len(subcategories) == 0:
-            print("❌ No valid subcategories provided. Exiting...")
+        if len(subcategories_dict) == 0:
+            print("❌ No valid subcategories found in CSV. Exiting...")
             return
         
-        print(f"\n📝 Generating data for {len(subcategories)} subcategories using OpenAI API...")
+        print(f"\n📝 Generating data for {len(subcategories_dict)} subcategories using OpenAI API...")
         
         # Step 1: Generate quizzes data
         print("\n🎮 Generating quizzes data...")
-        quizzes_data = generate_quizzes_data(category, subcategories)
+        quizzes_data = generate_quizzes_data(category, subcategories_dict)
         print(f"✅ Generated data for {len(quizzes_data['quizzes'])} quizzes")
         
         # Step 2: Generate questions data

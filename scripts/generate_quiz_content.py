@@ -7,7 +7,7 @@ from collections import defaultdict
 
 # Configuration
 # Hardcoded API key directly in the code
-OPENAI_API_KEY = "key"
+OPENAI_API_KEY = "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"
 
 MODEL = "gpt-4-turbo-preview"  # You can change to a different model if needed
 MAX_RETRIES = 3

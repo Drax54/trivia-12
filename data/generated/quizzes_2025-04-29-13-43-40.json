@@ -1,0 +1,904 @@
+{
+  "quizzes": [
+    {
+      "id": "friends-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Friends TV Show",
+      "description": "Dive into the world of Ross, Rachel, and the rest of the gang with questions about the iconic sitcom Friends.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 5.0,
+      "attempts": 31000,
+      "studyTopicId": "sitcoms",
+      "tags": [
+        "Friends",
+        "Sitcoms",
+        "TV Series"
+      ]
+    },
+    {
+      "id": "the-office-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Office TV Show",
+      "description": "Challenge your knowledge of Dunder Mifflin and its employees in this quiz about The Office TV show.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 29000,
+      "studyTopicId": "workplace-comedies",
+      "tags": [
+        "The Office",
+        "Dunder Mifflin",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "breaking-bad-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Breaking Bad TV Show",
+      "description": "Explore the complex world of Walter White with our Breaking Bad quiz, covering all seasons of the critically acclaimed series.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 25000,
+      "studyTopicId": "drama-series",
+      "tags": [
+        "Breaking Bad",
+        "Walter White",
+        "Drama"
+      ]
+    },
+    {
+      "id": "game-of-thrones-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Game of Thrones",
+      "description": "Test your mastery over the intricate details and complex characters in the realm of Game of Thrones.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 28000,
+      "studyTopicId": "fantasy-series",
+      "tags": [
+        "Game of Thrones",
+        "Westeros",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": "stranger-things-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Stranger Things",
+      "description": "Journey back to Hawkins and challenge your knowledge of Stranger Things, from the Upside Down to its lovable characters.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 27500,
+      "studyTopicId": "sci-fi-series",
+      "tags": [
+        "Stranger Things",
+        "Hawkins",
+        "Science Fiction"
+      ]
+    },
+    {
+      "id": "the-big-bang-theory-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Big Bang Theory",
+      "description": "Unleash your inner geek with this quiz on The Big Bang Theory, featuring questions about the quirky scientists and their adventures.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 5.0,
+      "attempts": 30000,
+      "studyTopicId": "geek-culture",
+      "tags": [
+        "The Big Bang Theory",
+        "Sheldon Cooper",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "how-i-met-your-mother-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "How I Met Your Mother",
+      "description": "Relive the legendary moments of Ted Mosby and the gang as you tackle questions about How I Met Your Mother.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 28500,
+      "studyTopicId": "romantic-comedy",
+      "tags": [
+        "How I Met Your Mother",
+        "Ted Mosby",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "greys-anatomy-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Grey's Anatomy",
+      "description": "Test your knowledge on the drama, relationships, and medical cases of Seattle Grace Hospital in this Grey's Anatomy quiz.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 26000,
+      "studyTopicId": "medical-dramas",
+      "tags": [
+        "Grey's Anatomy",
+        "Medical Drama",
+        "Seattle Grace"
+      ]
+    },
+    {
+      "id": "the-simpsons-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Simpsons",
+      "description": "From Springfield to the quirks of the Simpson family, explore your knowledge of America's favorite animated sitcom.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 32000,
+      "studyTopicId": "animated-shows",
+      "tags": [
+        "The Simpsons",
+        "Springfield",
+        "Animation"
+      ]
+    },
+    {
+      "id": "modern-family-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Modern Family",
+      "description": "Dive into the diverse and comedic world of the Pritchett and Dunphy families in this Modern Family quiz.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.8,
+      "attempts": 28500,
+      "studyTopicId": "family-comedy",
+      "tags": [
+        "Modern Family",
+        "Comedy",
+        "Pritchett"
+      ]
+    },
+    {
+      "id": "peaky-blinders-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Peaky Blinders",
+      "description": "Step into the gritty world of Birmingham post-WWI and test your knowledge on the notorious Shelby family and their Peaky Blinders gang.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 24000,
+      "studyTopicId": "historical-dramas",
+      "tags": [
+        "Peaky Blinders",
+        "Shelby",
+        "Crime Drama"
+      ]
+    },
+    {
+      "id": "money-heist-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Money Heist",
+      "description": "Put on your Dali mask and delve into the intricate heists and strategies of the Professor and his crew in this Money Heist quiz.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 27000,
+      "studyTopicId": "heist-series",
+      "tags": [
+        "Money Heist",
+        "Professor",
+        "Heist"
+      ]
+    },
+    {
+      "id": "brooklyn-nine-nine-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Brooklyn Nine-Nine",
+      "description": "Laugh and learn with the 99th precinct as you answer questions about Brooklyn Nine-Nine's funniest moments and beloved characters.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 5.0,
+      "attempts": 29500,
+      "studyTopicId": "police-comedy",
+      "tags": [
+        "Brooklyn Nine-Nine",
+        "Comedy",
+        "99th Precinct"
+      ]
+    },
+    {
+      "id": "the-crown-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Crown",
+      "description": "Explore the reigns of British monarchs through the impeccably portrayed drama in The Crown.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 25000,
+      "studyTopicId": "royal-family",
+      "tags": [
+        "The Crown",
+        "British Monarchy",
+        "Historical Drama"
+      ]
+    },
+    {
+      "id": "house-of-the-dragon-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "House of the Dragon",
+      "description": "Unravel the fiery history of House Targaryen in this challenging quiz about the Game of Thrones prequel, House of the Dragon.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 22000,
+      "studyTopicId": "fantasy-prequels",
+      "tags": [
+        "House of the Dragon",
+        "Targaryen",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": "the-mandalorian-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Mandalorian",
+      "description": "Dive into the adventures of Mando and The Child in this challenging quiz about the 'The Mandalorian' TV series.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 15000,
+      "studyTopicId": "star-wars-series",
+      "tags": [
+        "Mando",
+        "Baby Yoda",
+        "Star Wars"
+      ]
+    },
+    {
+      "id": "the-witcher-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Witcher",
+      "description": "Test your knowledge of the mystical and dark world of 'The Witcher' and its complex characters.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 12000,
+      "studyTopicId": "fantasy-series",
+      "tags": [
+        "Geralt of Rivia",
+        "Ciri",
+        "Monsters"
+      ]
+    },
+    {
+      "id": "squid-game-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Squid Game",
+      "description": "How well do you know the strategies and the survival tales from the hit series 'Squid Game'? Find out in this intense quiz.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 18000,
+      "studyTopicId": "korean-drama",
+      "tags": [
+        "K-Drama",
+        "Survival Games",
+        "2021 Series"
+      ]
+    },
+    {
+      "id": "euphoria-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Euphoria",
+      "description": "Explore the complex narratives and dynamic characters of 'Euphoria' in this comprehensive quiz.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 13000,
+      "studyTopicId": "teen-drama",
+      "tags": [
+        "High School",
+        "Rue Bennett",
+        "Drama Series"
+      ]
+    },
+    {
+      "id": "rick-and-morty-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Rick and Morty",
+      "description": "Jump through portals and explore the universe with Rick and Morty in this fun-filled quiz about the popular animated series.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.8,
+      "attempts": 16000,
+      "studyTopicId": "animated-series",
+      "tags": [
+        "Science Fiction",
+        "Animation",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "better-call-saul-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Better Call Saul",
+      "description": "Uncover the origins of Saul Goodman in this challenging quiz about the 'Better Call Saul' TV series.",
+      "questionCount": 20,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 11000,
+      "studyTopicId": "breaking-bad-series",
+      "tags": [
+        "Saul Goodman",
+        "Law",
+        "Drama"
+      ]
+    },
+    {
+      "id": "suits-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Suits TV Show",
+      "description": "Challenge yourself with intricate details from the legal drama 'Suits'. How well do you know Harvey Specter and Mike Ross?",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 9500,
+      "studyTopicId": "legal-drama",
+      "tags": [
+        "Lawyers",
+        "Harvey Specter",
+        "Mike Ross"
+      ]
+    },
+    {
+      "id": "lucifer-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Lucifer TV Show",
+      "description": "Dive into the devilish charm of Lucifer Morningstar in this engaging quiz about the 'Lucifer' TV show.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.6,
+      "attempts": 14000,
+      "studyTopicId": "supernatural-drama",
+      "tags": [
+        "Lucifer Morningstar",
+        "Hell",
+        "Crime Solving"
+      ]
+    },
+    {
+      "id": "lost-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Lost TV Show",
+      "description": "Test your survival skills and memory with trivia from the mysterious and thrilling 'Lost' TV series.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.4,
+      "attempts": 8000,
+      "studyTopicId": "mystery-series",
+      "tags": [
+        "Island",
+        "Survival",
+        "Mystery"
+      ]
+    },
+    {
+      "id": "dexter-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Dexter TV Show",
+      "description": "Step into the mind of Dexter Morgan and test your knowledge on the complex moral dilemmas and plots of 'Dexter'.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 10000,
+      "studyTopicId": "crime-drama",
+      "tags": [
+        "Dexter Morgan",
+        "Serial Killer",
+        "Miami"
+      ]
+    },
+    {
+      "id": "narcos-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Narcos TV Show",
+      "description": "Delve into the dangerous and intriguing world of drug cartels in this intense quiz on 'Narcos'.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 11500,
+      "studyTopicId": "crime-series",
+      "tags": [
+        "Pablo Escobar",
+        "Cartels",
+        "Colombia"
+      ]
+    },
+    {
+      "id": "seinfeld-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Seinfeld TV Show",
+      "description": "How well do you know 'the show about nothing'? Test your knowledge of 'Seinfeld' and its iconic characters.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.8,
+      "attempts": 17000,
+      "studyTopicId": "comedy-series",
+      "tags": [
+        "Jerry Seinfeld",
+        "Comedy",
+        "1990s"
+      ]
+    },
+    {
+      "id": "parks-and-recreation-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Parks and Recreation",
+      "description": "Relive the hilarious moments and quirky characters of Pawnee in this fun quiz about 'Parks and Recreation'.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 14000,
+      "studyTopicId": "sitcom",
+      "tags": [
+        "Leslie Knope",
+        "Pawnee",
+        "Comedy"
+      ]
+    },
+    {
+      "id": "black-mirror-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Black Mirror",
+      "description": "Challenge your perception of technology and society with this thought-provoking quiz on 'Black Mirror'.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 9500,
+      "studyTopicId": "science-fiction",
+      "tags": [
+        "Technology",
+        "Dystopia",
+        "Anthology"
+      ]
+    },
+    {
+      "id": "ozark-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Ozark TV Show",
+      "description": "Navigate the murky waters of crime and family drama in the Ozarks with this deep dive into the 'Ozark' TV series.",
+      "questionCount": 20,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 12000,
+      "studyTopicId": "thriller-series",
+      "tags": [
+        "Marty Byrde",
+        "Crime",
+        "Family Drama"
+      ]
+    },
+    {
+      "id": "westworld-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Westworld TV Show",
+      "description": "Explore the complex narratives and characters of HBO's science fiction series Westworld.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.5,
+      "attempts": 12000,
+      "studyTopicId": "hbo-series",
+      "tags": [
+        "Sci-Fi",
+        "HBO",
+        "AI"
+      ]
+    },
+    {
+      "id": "arrested-development-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Arrested Development",
+      "description": "Dive into the dysfunctional world of the Bluth family with this quiz on Arrested Development.",
+      "questionCount": 20,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 18000,
+      "studyTopicId": "sitcoms",
+      "tags": [
+        "Comedy",
+        "Bluth Family",
+        "Sitcom"
+      ]
+    },
+    {
+      "id": "sons-of-anarchy-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Sons of Anarchy",
+      "description": "Test your knowledge of the gritty world of SAMCRO in this Sons of Anarchy quiz.",
+      "questionCount": 30,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.6,
+      "attempts": 15000,
+      "studyTopicId": "motorcycle-clubs",
+      "tags": [
+        "Motorcycles",
+        "Crime Drama",
+        "SAMCRO"
+      ]
+    },
+    {
+      "id": "doctor-who-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Doctor Who",
+      "description": "Journey through time and space with the Doctor in this expansive Doctor Who trivia quiz.",
+      "questionCount": 35,
+      "timeLimit": 20,
+      "difficulty": "Medium",
+      "popularity": 4.9,
+      "attempts": 22000,
+      "studyTopicId": "time-travel",
+      "tags": [
+        "Time Travel",
+        "The Doctor",
+        "Sci-Fi"
+      ]
+    },
+    {
+      "id": "the-vampire-diaries-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Vampire Diaries",
+      "description": "Sink your teeth into the drama, romance, and supernatural elements of The Vampire Diaries.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.3,
+      "attempts": 17000,
+      "studyTopicId": "supernatural-drama",
+      "tags": [
+        "Vampires",
+        "Supernatural",
+        "Romance"
+      ]
+    },
+    {
+      "id": "gossip-girl-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Gossip Girl",
+      "description": "Uncover the secrets and scandals of Manhattan's elite in this Gossip Girl quiz.",
+      "questionCount": 20,
+      "timeLimit": 10,
+      "difficulty": "Easy",
+      "popularity": 4.4,
+      "attempts": 14000,
+      "studyTopicId": "high-society",
+      "tags": [
+        "Drama",
+        "Manhattan",
+        "High Society"
+      ]
+    },
+    {
+      "id": "true-detective-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "True Detective",
+      "description": "Challenge your detective skills with this quiz based on the intense and mysterious True Detective series.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 13500,
+      "studyTopicId": "crime-drama",
+      "tags": [
+        "Detective",
+        "Crime",
+        "Drama"
+      ]
+    },
+    {
+      "id": "this-is-us-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "This Is Us TV Show",
+      "description": "Explore the deep emotional connections and complex stories of the Pearson family in This Is Us.",
+      "questionCount": 20,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 16000,
+      "studyTopicId": "family-drama",
+      "tags": [
+        "Family",
+        "Drama",
+        "NBC"
+      ]
+    },
+    {
+      "id": "the-walking-dead-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Walking Dead",
+      "description": "Survive the apocalypse and prove your knowledge of The Walking Dead's challenging world.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.9,
+      "attempts": 25000,
+      "studyTopicId": "zombie-apocalypse",
+      "tags": [
+        "Zombies",
+        "Survival",
+        "Horror"
+      ]
+    },
+    {
+      "id": "the-boys-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Boys TV Show",
+      "description": "Delve into the gritty and dark world of superheroes gone rogue with The Boys TV Show quiz.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 18000,
+      "studyTopicId": "superheroes",
+      "tags": [
+        "Superheroes",
+        "Drama",
+        "Vigilantes"
+      ]
+    },
+    {
+      "id": "13-reasons-why-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "13 Reasons Why",
+      "description": "Explore the intense and emotional storyline of 13 Reasons Why in this comprehensive quiz.",
+      "questionCount": 20,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.2,
+      "attempts": 12500,
+      "studyTopicId": "teen-drama",
+      "tags": [
+        "Teen Drama",
+        "Mystery",
+        "Netflix"
+      ]
+    },
+    {
+      "id": "house-md-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "House M.D.",
+      "description": "Diagnose your knowledge of the brilliant but troubled Dr. House and his cases with this quiz.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.6,
+      "attempts": 19000,
+      "studyTopicId": "medical-drama",
+      "tags": [
+        "Medical",
+        "Drama",
+        "House"
+      ]
+    },
+    {
+      "id": "criminal-minds-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Criminal Minds",
+      "description": "Unravel the minds of criminals with this detailed quiz on the long-running series Criminal Minds.",
+      "questionCount": 30,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.7,
+      "attempts": 21000,
+      "studyTopicId": "profiling",
+      "tags": [
+        "Crime",
+        "FBI",
+        "Profiling"
+      ]
+    },
+    {
+      "id": "law-and-order-svu-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Law and Order: SVU",
+      "description": "Put your knowledge of the Special Victims Unit to the test with this comprehensive quiz on Law and Order: SVU.",
+      "questionCount": 25,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.8,
+      "attempts": 20000,
+      "studyTopicId": "legal-drama",
+      "tags": [
+        "Crime",
+        "Legal",
+        "SVU"
+      ]
+    },
+    {
+      "id": "the-good-place-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Good Place",
+      "description": "Test your ethics and knowledge of the afterlife with fun and thoughtful questions from The Good Place.",
+      "questionCount": 20,
+      "timeLimit": 10,
+      "difficulty": "Easy",
+      "popularity": 4.5,
+      "attempts": 13000,
+      "studyTopicId": "philosophy",
+      "tags": [
+        "Comedy",
+        "Afterlife",
+        "Ethics"
+      ]
+    },
+    {
+      "id": "the-last-of-us-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Last of Us TV Show",
+      "description": "Dive into the post-apocalyptic world of Joel and Ellie with this quiz on 'The Last of Us' TV series. Test your memory on plot twists, character arcs, and critical survival decisions from this gripping adaptation.",
+      "questionCount": 15,
+      "timeLimit": 10,
+      "difficulty": "Medium",
+      "popularity": 4.5,
+      "attempts": 3200,
+      "studyTopicId": "post-apocalyptic-fiction",
+      "tags": [
+        "Joel and Ellie",
+        "Survival",
+        "Post-Apocalypse"
+      ]
+    },
+    {
+      "id": "one-piece-live-action-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "One Piece Live Action",
+      "description": "Set sail for adventure with the Straw Hat Pirates in our thrilling quiz about the 'One Piece Live Action' series. Explore questions about the characters, story arcs, and how the live-action version compares to the beloved manga and anime.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Hard",
+      "popularity": 4.2,
+      "attempts": 1500,
+      "studyTopicId": "anime-adaptations",
+      "tags": [
+        "Straw Hat Pirates",
+        "Manga Adaptations",
+        "Live Action"
+      ]
+    },
+    {
+      "id": "the-umbrella-academy-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Umbrella Academy",
+      "description": "Challenge your knowledge of the Hargreeves siblings and their chaotic journey through time and personal battles in 'The Umbrella Academy'. Each question will test your insights on their superpowers and complex family dynamics.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Medium",
+      "popularity": 4.7,
+      "attempts": 5000,
+      "studyTopicId": "superhero-tv-shows",
+      "tags": [
+        "Hargreeves Siblings",
+        "Superpowers",
+        "Time Travel"
+      ]
+    },
+    {
+      "id": "bridgerton-tv-show-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "Bridgerton TV Show",
+      "description": "Immerse yourself in the sumptuous world of 'Bridgerton' with this quiz that covers the scandal, romance, and elegance of the Regency era depicted in the series. Perfect your knowledge of the Bridgerton family and their pursuits of love and power.",
+      "questionCount": 20,
+      "timeLimit": 15,
+      "difficulty": "Easy",
+      "popularity": 4.9,
+      "attempts": 8000,
+      "studyTopicId": "regency-era-dramas",
+      "tags": [
+        "Regency Drama",
+        "Bridgerton Family",
+        "Romance"
+      ]
+    },
+    {
+      "id": "the-handmaids-tale-trivia-questions-answers",
+      "categoryId": "entertainment",
+      "subcategoryId": "tv-shows",
+      "name": "The Handmaid's Tale",
+      "description": "Explore the dystopian world of Gilead in 'The Handmaid's Tale'. This quiz will challenge your understanding of the show's plotlines, character developments, and the haunting societal themes it explores.",
+      "questionCount": 25,
+      "timeLimit": 20,
+      "difficulty": "Hard",
+      "popularity": 4.8,
+      "attempts": 3500,
+      "studyTopicId": "dystopian-fiction",
+      "tags": [
+        "Gilead",
+        "Dystopia",
+        "Societal Themes"
+      ]
+    }
+  ]
+}
