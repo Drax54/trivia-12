@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Categories", href: "/categories" },
-  { name: "Study", href: "/study" },
   { name: "Leaderboard", href: "/leaderboard" },
 ];
 
@@ -45,9 +44,6 @@ export function Navbar() {
             </Link>
           ))}
           <div className="flex items-center gap-2">
-            <Button variant="outline" asChild>
-              <Link href="/create">Create Quiz</Link>
-            </Button>
             <Button asChild>
               <Link href="/categories">Start Quiz</Link>
             </Button>
@@ -87,9 +83,6 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 mt-4">
-              <Button variant="outline" asChild className="w-full">
-                <Link href="/create">Create Quiz</Link>
-              </Button>
               <Button asChild className="w-full">
                 <Link href="/categories">Start Quiz</Link>
               </Button>
